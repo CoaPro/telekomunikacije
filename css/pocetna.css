@@ -4,12 +4,9 @@
     padding: 0; 
 }
 
-
-.zaglavlje 
+.telo
 {
-    background-color: blueviolet; 
-    color: white; 
-    height: 30vh; 
+    min-height: 80vh;
 }
 
 .studije
@@ -19,9 +16,6 @@
     padding: 5vh; 
     margin: 0 auto; 
     display: flex; 
-    
-    
-
 }
 
 .studije img 
@@ -35,16 +29,6 @@
     border: 5px solid blue; 
     opacity: 0.7;
 } 
-
-.zacelje 
-{
-    background-color: blueviolet; 
-    color: white; 
-    height: 20vh; 
-    width: 100%; 
-    margin-bottom: 0; 
-}
-
 
 @media screen and (max-width: 700px)
 {
