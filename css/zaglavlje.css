@@ -4,3 +4,24 @@
     color: white; 
     height: 30vh; 
 }
+
+#m_nazad
+{
+    color: white;
+    display: inline-block; 
+    background-color:teal; 
+    padding: 0.4em; 
+    text-decoration: none; 
+}
+
+#sf_t
+{
+    font-weight: bold; 
+    font-family: Montserrat;
+}
+
+*
+{
+    margin: 0;
+    padding: 0; 
+}

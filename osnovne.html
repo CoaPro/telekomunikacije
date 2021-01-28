@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saobraćajni fakultet | Osnovne akademske studije </title> 
     <link rel="stylesheet" href="css/osnovne.css">
+    <link rel="stylesheet" href="css/zaglavlje.css">
 </head>
 <body>
+
+
+    <div class="zaglavlje"> 
+        <p id="sf_t">Saobraćajni fakultet </p>
+        <a id="m_nazad" href="index.html">Nazad</a> 
+    </div> 
+
+
+
+    <div class="prvaGodina">
+        Prva godina 
+        <a href="">Matematika 1</a>
+        <a href="">Fizika</a>
+        <a href="">Engleski jezik 1</a>
+        <a href="">Osnovi programiranja</a>
+        <br/>
+        <a href="">Matematika 2</a>
+        <a href="">Engleski jezik 2</a>
+        <a href="">Inženjersko crtanje primenom računara</a>
+        <a href="">Programiranje</a>
+    </div>
 
     <ul class="predmeti"> 
         
@@ -86,6 +108,32 @@
 
 
     </ul>
+
+
     
+
+    <div class="izbor_predmeta">
+
+        <label for="izbor_godine">Izaberi godinu: </label>
+        
+        <select name="izbor_godine" id="izbor_godine" onchange="prikaziGodinu()">
+            <option>Godina</option>
+            <option value="prva">Prva</option>
+            <option value="druga">Druga</option>
+            <option value="treca">Treća</option>
+            <option value="cetvrta">Četvrta</option>
+
+        </select>
+    </div>
+
+    <div class="aca">
+
+        <p id="result">Radd</p>
+
+    </div>
+
+    
+
+    <script src="js/osnovne.js"></script>
 </body>
 </html>
