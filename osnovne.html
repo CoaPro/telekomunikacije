@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/osnovne.css">
     <link rel="stylesheet" href="css/zaglavlje.css">
 </head>
-<body>
+<body onload="faksDef()">
 
 
     <div class="zaglavlje"> 
@@ -100,24 +100,25 @@
 -->
 
     <div class="godina">
-        <li id="klik1" onclick="prvaGodina()"><a href="">Prva</a></li>
-        <li><a href="">Druga</a></li>
+        <li id="klik1" onclick="prvaGodina()"><a href="" onclick="prvaGodina()">Prva</a></li>
+        <li onclick="drugaGodina()"><a href="" onclick="drugaGodina()">Druga</a></li>
         <li><a href="">Treća</a></li>
         <li><a href="">Četvrta</a></li>
     </div>
     
 
-    <div class="prvaGodina">
-        Prva godina 
-        <a href="">Matematika 1</a>
-        <a href="">Fizika</a>
-        <a href="">Engleski jezik 1</a>
-        <a href="">Osnovi programiranja</a>
+    <div class="faks">
+        <p id="g_opis">Prva godina </p>
+        <a id="p1" href=""></a>
+        <a id="p2" href=""></a>
+        <a id="p3" href=""></a>
+        <a id="p4" href=""></a>
         <br/>
-        <a href="">Matematika 2</a>
-        <a href="">Engleski jezik 2</a>
-        <a href="">Inženjersko crtanje primenom računara</a>
-        <a href="">Programiranje</a>
+        <a id="p5" href=""></a>
+        <a id="p6" href=""></a>
+        <a id="p7" href=""></a>
+        <a id="p8" href=""></a>
+        <a id="p9" href=""></a>
     </div>
 
     <div class="drugaGodina">
