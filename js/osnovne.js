@@ -1,7 +1,7 @@
 document.getElementsByClassName("predmeti")[0].style.display = "none"; 
-document.getElementsByClassName("prvaGodina")[0].style.visibility = "hidden";
+//document.getElementsByClassName("prvaGodina")[0].style.display = "none";
 
-
+/*
 prikaziGodinu()
 {
  var a = document.getElementById("izbor_godine");
@@ -11,5 +11,16 @@ prikaziGodinu()
  {
     document.getElementsByClassName("prvaGodina")[0].style.display = "block"; 
  }
+
+}
+*/
+
+
+//document.getElementById("klik1").onclick = function() {prvaGodina()};
+
+function prvaGodina()
+{
+ 
+ document.getElementsByClassName("prvaGodina")[0].style.display = "none";
 
 }

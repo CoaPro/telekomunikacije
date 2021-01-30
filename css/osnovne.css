@@ -1,0 +1,44 @@
+.godina a
+{
+    text-decoration: none; 
+    color: white;
+}
+
+.godina li
+{
+    list-style: none;
+    color: white; 
+    background-color: rgb(40, 83, 226);
+    border: 1px solid teal; 
+    width: 5em; 
+    padding: 0.5em;
+}
+
+.godina li:hover
+{
+    opacity: 0.7;
+}
+
+.prvaGodina
+{
+    display: flex;
+    flex-direction: column; 
+    background-color: yellowgreen;
+    width: 20em; 
+    color: white; 
+    margin: 0 auto;
+}
+
+.prvaGodina a
+{
+    color: white; 
+    text-align: center;
+    text-decoration: none; 
+    padding: 0.3em;
+    
+}
+
+.prvaGodina a:hover
+{
+    opacity: 0.7;
+}

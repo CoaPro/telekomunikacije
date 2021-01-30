@@ -5,6 +5,16 @@
     height: 30vh; 
 }
 
+#bel
+{
+    text-decoration: none;
+    color: white;
+    background-color: yellowgreen;
+    padding: 0.4em;
+    border-radius: 10px; 
+    margin-top: 2em;
+}
+
 #m_nazad
 {
     color: white;
