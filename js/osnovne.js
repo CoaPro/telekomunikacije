@@ -66,3 +66,40 @@ function drugaGodina()
    */
 
 }
+
+function trecaGodina()
+{
+ 
+ document.getElementsByClassName("faks")[0].style.display = "flex";
+ document.getElementsByClassName("faks")[0].style.backgroundColor = "tomato";
+ document.getElementById("g_opis").innerHTML = "Treća godina"; 
+ document.getElementById("p1").innerHTML = "Osnovi telekomunikacija 1";
+ document.getElementById("p2").innerHTML = "Osnovi telekomunikacionog saobraćaja";
+ document.getElementById("p3").innerHTML = "Veštačka inteligenicja ";
+ document.getElementById("p4").innerHTML = "Osnovi telekomunikacija 2";
+ document.getElementById("p5").innerHTML = "Računarske mreže";
+ document.getElementById("p6").innerHTML = "Komutacioni sistemi";
+ document.getElementById("p7").innerHTML = "Telekomunikacioni softver"; 
+ document.getElementById("p8").innerHTML = ""; 
+ document.getElementById("p9").innerHTML = ""; 
+
+}
+
+function cetvrtaGodina()
+{
+ 
+ document.getElementsByClassName("faks")[0].style.display = "flex";
+ document.getElementsByClassName("faks")[0].style.backgroundColor = "teal";
+ document.getElementById("g_opis").innerHTML = "Četvrta godina"; 
+ document.getElementById("p1").innerHTML = "Osnovi radio komunikacija";
+ document.getElementById("p2").innerHTML = "Saobraćaj u komunikacionim mrežama";
+ document.getElementById("p3").innerHTML = "Statistička teorija telekomunikacija";
+ document.getElementById("p4").innerHTML = "Telekomunikacioni sistemi";
+ document.getElementById("p5").innerHTML = "Bežični komunikacioni sistemi";
+ document.getElementById("p6").innerHTML = "Multimedijalne komunikacije";
+ document.getElementById("p7").innerHTML = "Novi komunikacioni servisi"; 
+ document.getElementById("p8").innerHTML = "Optički komunikacioni sistemi"; 
+ document.getElementById("p9").innerHTML = "Završni rad"; 
+
+}
+
