@@ -1,3 +1,40 @@
+.telo_oas
+{
+    min-height: 68vh;
+}
+
+.slika_oas
+{
+    padding-top: 1em; 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+    width: 20em; 
+    border: 2px solid rgb(41, 87, 238); 
+    box-shadow: 1px 2px 1px rgb(95, 100, 100), 1px 1px 1px rgb(200, 206, 206);
+    border-radius: 15px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;  
+    margin-bottom: 0.8em;
+}
+
+.slika_oas_i
+{
+    color: rgb(15, 94, 240); 
+}
+
+.godina
+{
+    width: 24.3em; 
+    display: flex; 
+    margin: 0 auto;
+    flex-direction: row; 
+    justify-content: center; 
+    padding: 1em; 
+    text-align: center; 
+}
+
 .godina a
 {
     text-decoration: none; 
@@ -9,9 +46,9 @@
     list-style: none;
     color: white; 
     background-color: rgb(40, 83, 226);
-    border: 1px solid teal; 
     width: 5em; 
     padding: 0.5em;
+    
 }
 
 .godina li:hover
@@ -21,12 +58,14 @@
 
 .faks
 {
+    padding: 0.5em; 
     display: flex;
     flex-direction: column; 
     background-color: yellowgreen;
     width: 20em; 
     color: white; 
-    margin: 0 auto;
+    margin: 0 auto; 
+    margin-bottom: 0.2em;
 }
 
 .faks a
@@ -48,4 +87,20 @@
     text-align: center; 
     background-color:rgb(33, 90, 7); 
     padding: 0.4em;
+}
+
+.reset_oas
+{
+    display: flex;
+    width: 5em;
+    margin: 0 auto;
+    background-color: gold; 
+    color: white; 
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em; 
+    border-radius: 10px;
+    margin-top: 0; 
+    margin-bottom: 1em;
+
 }

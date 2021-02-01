@@ -21,12 +21,14 @@ prikaziGodinu()
 function faksDef()
 {
    document.getElementsByClassName("faks")[0].style.display = "none";
+   document.getElementsByClassName("reset_oas")[0].style.display = "none";
+   document.getElementsByClassName("zaglavlje")[0].style.display = "block";
 }
 
 
 function prvaGodina()
 {
- 
+ document.getElementsByClassName("zaglavlje")[0].style.display = "none";
  document.getElementsByClassName("faks")[0].style.display = "flex";
  document.getElementsByClassName("faks")[0].style.backgroundColor = "yellowgreen";
  document.getElementById("g_opis").innerHTML = "Prva godina"; 
@@ -40,14 +42,17 @@ function prvaGodina()
  document.getElementById("p8").innerHTML = "Programiranje"; 
  document.getElementById("p9").innerHTML = ""; 
 
+ document.getElementsByClassName("reset_oas")[0].style.display = "flex";
+
 }
 
 
 function drugaGodina()
 {
-   const predmet = document.querySelector(".faks a"); 
-   const noviEl = document.createElement("a"); 
-
+   //const predmet = document.querySelector(".faks a"); 
+   //const noviEl = document.createElement("a"); 
+   document.getElementsByClassName("zaglavlje")[0].style.display = "none";
+   document.getElementsByClassName("faks")[0].style.display = "flex";
    document.getElementsByClassName("faks")[0].style.backgroundColor = "orange"; 
    document.getElementById("g_opis").innerHTML = "Druga godina"; 
    document.getElementById("p1").innerHTML = "Matematika 3";
@@ -64,15 +69,16 @@ function drugaGodina()
    predmet.appendChild(noviEl); 
    parent.prepend(noviEl);
    */
-
+  document.getElementsByClassName("reset_oas")[0].style.display = "flex";
 }
 
 function trecaGodina()
 {
  
  document.getElementsByClassName("faks")[0].style.display = "flex";
- document.getElementsByClassName("faks")[0].style.backgroundColor = "tomato";
+ document.getElementsByClassName("faks")[0].style.backgroundColor = "skyblue";
  document.getElementById("g_opis").innerHTML = "Treća godina"; 
+ document.getElementById("g_opis").style.backgroundColor = "rgb(15, 94, 240)"; 
  document.getElementById("p1").innerHTML = "Osnovi telekomunikacija 1";
  document.getElementById("p2").innerHTML = "Osnovi telekomunikacionog saobraćaja";
  document.getElementById("p3").innerHTML = "Veštačka inteligenicja ";
@@ -83,6 +89,7 @@ function trecaGodina()
  document.getElementById("p8").innerHTML = ""; 
  document.getElementById("p9").innerHTML = ""; 
 
+ document.getElementsByClassName("reset_oas")[0].style.display = "flex";
 }
 
 function cetvrtaGodina()
@@ -101,5 +108,5 @@ function cetvrtaGodina()
  document.getElementById("p8").innerHTML = "Optički komunikacioni sistemi"; 
  document.getElementById("p9").innerHTML = "Završni rad"; 
 
+ document.getElementsByClassName("reset_oas")[0].style.display = "flex";
 }
-

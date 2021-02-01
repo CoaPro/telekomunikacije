@@ -2,6 +2,11 @@ body
 {
     position: relative;
 }
+.telo_bi
+{
+    min-height: 80vh; 
+}
+
 .container_bi
 {
     display: flex; 
@@ -74,8 +79,8 @@ body
     width: 15em; 
     height: auto;
     position: absolute;
-    top: 50vh;
-    left: 42.5vw; 
+    top: 45%;
+    left: 42%; 
     text-align: center; 
 } 
 

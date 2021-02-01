@@ -6,6 +6,8 @@
     <title>Saobraćajni fakultet | Osnovne akademske studije </title> 
     <link rel="stylesheet" href="css/osnovne.css">
     <link rel="stylesheet" href="css/zaglavlje.css">
+    <link rel="stylesheet" href="css/zacelje.css">
+    <link rel="shortcut icon" href="ico/Slika_CV_krug.png">
 </head>
 <body onload="faksDef()">
 
@@ -28,7 +30,7 @@
     </div> 
 
 
-
+    <div class="telo_oas">
 <!--
     <ul class="predmeti"> 
         
@@ -111,10 +113,40 @@
 -->
 
     <div class="godina">
-        <li id="klik1" onclick="prvaGodina()"><a href="" onclick="prvaGodina()">Prva</a></li>
-        <li onclick="drugaGodina()"><a href="" onclick="drugaGodina()">Druga</a></li>
-        <li onclick="trecaGodina()"><a href="" onclick="trecaGodina()" >Treća</a></li>
-        <li onclick="cetvrtaGodina()"><a href="" onclick="cetvrtaGodina()">Četvrta</a></li>
+
+        <div class="godina_">
+            <li id="klik1" onclick="prvaGodina()"><a onclick="prvaGodina()">Prva</a></li>
+        </div>
+
+        <div class="godina_">
+            <li onclick="drugaGodina()"><a onclick="drugaGodina()">Druga</a></li>
+        </div>
+
+        <div class="godina_">
+            <li onclick="trecaGodina()"><a  onclick="trecaGodina()" >Treća</a></li>
+        </div>
+
+        <div class="godina_">
+        <li onclick="cetvrtaGodina()"><a onclick="cetvrtaGodina()">Četvrta</a></li>
+        </div>
+
+    </div>
+
+
+    <div class="slika_oas">
+
+        <div class="slika_oas_i">
+
+        <img src="img/osnovne_studije.png" alt="Osnovne akademske studije">
+
+        </div>
+
+        <div class="slika_oas_i">
+
+        <p>Omiljeni predmeti sa osnovnih studija telekomunikacija</p>
+
+        </div>
+
     </div>
     
 
@@ -132,8 +164,8 @@
         <a id="p9" href=""></a>
     </div>
 
-    <div class="drugaGodina">
-        
+    <div class="reset_oas" onclick="faksDef()">
+        <p>Resetuj</p>
     </div>
 
     <!-- 
@@ -151,6 +183,40 @@
         </select>
     </div>
     -->
+    </div>
+
+    <div class="zacelje"> 
+        
+        <div class="autorskaPrava">
+
+            © 2021 Aleksandar Luković | Sva prava zadržana 
+
+        </div>
+
+        <div class="zacelje_c">
+
+            <div class="zacelje_i">
+                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="ico/linkedin.svg" title="Aleksandar Luković | LinkedIn"></img> </a>
+            </div>
+
+            <div class="zacelje_i">
+                <a href="https://github.com/CoaPro" target="_blank"><img src="ico/github.svg" title="Aleksandar Luković | GitHub"></img> </a>
+            </div>
+
+            <div class="zacelje_i">
+                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="ico/facebook.svg" title="Aleksandar Luković | Facebook"></img> </a> 
+            </div>
+
+            <div class="zacelje_i">
+                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="ico/instagram.svg" title="Aleksandar Luković | Instagram"></img> </a>
+            </div>
+
+            <div class="zacelje_i">
+                <a href="https://www.youtube.com/CoaPro/" target="_blank"><img src="ico/youtube.svg" title="Aleksandar Luković | YouTube"></img> </a>
+            </div>
+
+        </div>
+    </div> 
 
     <script src="js/osnovne.js"></script>
 </body>

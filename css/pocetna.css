@@ -43,7 +43,17 @@
 .studije_ p
 {
     text-align: center; 
-    padding-top: 2.5em; 
+    margin-top: 1em;
+    padding: 0.5em; 
+
+}
+
+.studije_ p:hover
+{
+    
+    border-radius: 10px; 
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue; 
 }
 
 .studije img:hover 

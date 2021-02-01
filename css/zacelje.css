@@ -1,8 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 .zacelje 
 {
+    margin: 0; 
+    padding: 0; 
     background-color: blueviolet; 
     color: white; 
-    height: 12vh; 
-    width: 100%; 
-    margin-bottom: 0; 
+    height: auto;  
+    width: auto; 
+}
+
+.autorskaPrava
+{
+    margin: 0 auto; 
+    width: 20em; 
+    padding: 1.5em; 
+    text-align: center; 
+}
+
+.zacelje_c
+{
+    display: flex; 
+    flex-direction: row; 
+    width: 25em; 
+    height: auto; 
+    margin: 0 auto; 
+    justify-content: center;  
+    padding-bottom: 1em;
+}
+
+.zacelje_c a
+{
+    padding: 1em; 
 }

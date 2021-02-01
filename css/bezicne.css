@@ -3,14 +3,13 @@
     display: grid; 
     grid-template-columns: auto; 
     grid-gap: 1em; 
+    margin-top: 1em; 
 
 }
 
 .itemBez
 {
-
     margin: 0 auto; 
-    border: 1px solid black; 
     width: 55em; 
 }
 
