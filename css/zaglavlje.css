@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+*
+{
+    font-family: 'Lato', sans-serif; 
+}
+
 .zaglavlje 
 {
-    background-color: blueviolet; 
+    background-color: #422cba; 
     color: white; 
     height: 15vh; 
+    border-bottom: 3px solid #0fb5df;
+    border-radius: 0 0 23px 23px; 
 }
 
 #bel

@@ -1,23 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+
 *
 {
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    font-family: 'Lato', sans-serif; 
 }
 
 .zacelje 
 {
     margin: 0; 
     padding: 0; 
-    background-color: blueviolet; 
+    background-color: #422cba; 
     color: white; 
     height: auto;  
     width: auto; 
+    border-top: 3px solid #0fb5df;
+    border-radius: 23px 23px 0 0;
 }
 
 .autorskaPrava
 {
     margin: 0 auto; 
-    width: 20em; 
+    width: 23em; 
     padding: 1.5em; 
     text-align: center; 
 }

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+*
+{
+    font-family: 'Lato', sans-serif; 
+}
+
 body
 {
     position: relative;
@@ -10,24 +17,33 @@ body
 .container_bi
 {
     display: flex; 
-    width: 90vw;
+    width: 82vw;
     flex-direction: column; 
     margin: 0 auto; 
-
+    border: 1px solid black; 
+    justify-content: center; 
+    align-items: center;
     
 }
 
+.item img
+{
+    width: 100%;
+}
+/*
 .item
 {
     margin: 0 auto; 
-    align-items: center;
+    align-items: center; 
+    width: 90vw; 
 }
 
 .container_bi img
 {
-    width: 60%; 
-    margin-left: 18vw; 
+    width: 80%; 
+    margin: 0 auto;
 }
+*/
 /*
 .prikaziBI, .sakrijBI
 {
@@ -52,7 +68,7 @@ body
 
 .prikaziSakrijBI
 {
-    text-align: center; 
+    text-align: center;
 }
 .prikaziSakrijBI ul
 {
@@ -65,8 +81,7 @@ body
     color: white; 
     background-color: rgb(30, 112, 206); 
     padding: 1em; 
-    width: 15em; 
-
+    width: 15em;
 }
 
 .prikaziSakrijBI li:hover

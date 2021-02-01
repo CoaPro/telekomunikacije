@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+*
+{
+    font-family: 'Lato', sans-serif; 
+}
+
 .telo_oas
 {
     min-height: 68vh;
@@ -11,7 +18,7 @@
     margin: 0 auto; 
     width: 20em; 
     border: 2px solid rgb(41, 87, 238); 
-    box-shadow: 1px 2px 1px rgb(95, 100, 100), 1px 1px 1px rgb(200, 206, 206);
+    -webkit-box-shadow: 2px -1px 33px -20px rgba(0,0,0,0.67);
     border-radius: 15px;
     justify-content: center; 
     align-items: center; 
@@ -62,10 +69,12 @@
     display: flex;
     flex-direction: column; 
     background-color: yellowgreen;
-    width: 20em; 
+    width: 19em; 
     color: white; 
     margin: 0 auto; 
-    margin-bottom: 0.2em;
+    margin-bottom: 0.2em; 
+    border-radius: 15px;
+    -webkit-box-shadow: 2px -1px 33px -20px rgba(0,0,0,0.67);
 }
 
 .faks a
