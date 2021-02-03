@@ -5,13 +5,44 @@
     font-family: 'Lato', sans-serif; 
 }
 
+.teloBM
+{
+    min-height: 45vh; 
+}
+
+.bmMeni
+{
+    padding-top: 2rem;
+    width: 14em;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.bmMeni a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.bmMeni li
+{
+    padding: 0.7em; 
+    list-style: none;
+    background-color: rgb(128, 202, 31); 
+    color: white; 
+}
+
+.bmMeni li:hover
+{
+    opacity: 0.8;
+}
+
 .containerBez
 {
-    display: grid; 
-    grid-template-columns: auto; 
-    grid-gap: 1em; 
+    display: flex; 
+    flex-direction: column; 
     margin-top: 1em; 
-
 }
 
 .itemBez

@@ -54,6 +54,12 @@ body
 {
     text-align: center; 
 }
+
+.prikaziSakrijBI a
+{
+    text-decoration: none;
+}
+
 .prikaziSakrijBI ul
 {
     padding: 1em; 

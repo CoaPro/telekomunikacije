@@ -111,5 +111,31 @@
     border-radius: 10px;
     margin-top: 0; 
     margin-bottom: 1em;
-
 }
+
+.osnovneMeni
+{
+    width: 14em; 
+    margin: 0 auto;  
+    padding-top: 1em; 
+}
+
+.osnovneMeni a
+{
+    text-decoration: none; 
+}
+
+.osnovneMeni li
+{
+    padding: 0.5em; 
+    color: white;
+    background-color: rgb(40, 83, 226);
+    text-align: center; 
+    list-style: none; 
+}
+
+.osnovneMeni li:hover
+{
+    opacity: 0.8;
+}
+
