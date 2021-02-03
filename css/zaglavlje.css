@@ -72,12 +72,13 @@
 {
     .zaglavlje
     {
-        height: 40vh; 
+        height: 46vh; 
     }
 
 
     .navbar
     {
+        padding-top: 1em;
         display: flex;
         flex-direction: column;
     }
